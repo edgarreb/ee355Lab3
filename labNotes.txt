@@ -1,0 +1,15 @@
+Name: Edgar Martinez 
+Email: edgarmar@usc.edu
+Lab: 3
+
+Things to note: 
+In this lab I used the stoi() function call to convert strings to integers. I used this function to convert the "sizes" of pancakes when reading from the input file. 
+
+All the contents read from the file were stored in two arrays. The first array held the size of pancakes, and is named size[]. The second array held the value boolean value that would indicate the burnt side of the pancake, this array was called burnt[];
+
+Before filling the arrays (burnt[], size[]) I would store the values from the input file in temprorary arrays of type string. 
+
+```````````````````````````````````````````````````````````````````````````````
+
+Concerns: 
+I was able to verify my results matched the golden output, however I ran into some issues with the script. I emailed Saeed about this concern, but I have not heard back from him yet. To avoid a late submission I decided to submit without running the script. The error that I was running into when running the script was stoi() not defined. I believe this error is due to the fact that the script compiles my code it doesn't use -std=c++11 as the compiler option. To test further I made my own test.txt file to run my code on, and verified that it worked. I will be pushing the file "test.txt" to the repo so that you can have access to it. If you have any questions feel free to email me. 
